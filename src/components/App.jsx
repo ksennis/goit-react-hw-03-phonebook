@@ -10,6 +10,7 @@ export class App extends Component {
   }
 
   componentDidMount() {
+    console.log(1)
     const contactsString = localStorage.getItem('contacts');
 
     if (contactsString) {
